@@ -8,11 +8,12 @@ h1 {
     margin: 0;
 }
 
-
-.container {
+section {
     display: flex;
+    margin-top: 10px;
 }
-.top-banner{
+
+.top-banner {
     background-image: url(./img/top-banner.png);
 }
 
@@ -29,11 +30,18 @@ h1 {
     color: orange;
 }
 
-.hire-btn {
+.btn-link {
     text-decoration: none;
     font-weight: bold;
     padding: 10px 40px;
     background-image: linear-gradient(orange, tomato);
     border-radius: 5px;
     color: white;
+}
+
+.big-dream {
+    background-image: url(./img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
